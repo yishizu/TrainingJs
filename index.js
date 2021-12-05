@@ -17,7 +17,9 @@ console.log(interstRate);
 
 const ul = document.querySelector('.people');
 const people = ['yuko', 'kozue', 'masatoshi','toshiko','ken'];
-
+for(let i=0; i<people.length; i++){
+    console.log(people[i]);
+}
 let html = ``;
 
 people.forEach(person =>{
@@ -26,3 +28,10 @@ people.forEach(person =>{
 console.log(html);
 console.log(ul);
 ul.innerHTML = html;
+
+//for loop
+let num =0;
+for(let i=0; i<5; i++){
+    num +=i;
+    console.log(num);
+}
